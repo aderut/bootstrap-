@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #0D2D1E !important; /* Dark green navbar */
+}
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    color: white !important;
+}
+
+.custom-bg {
+    background-color: #0D2D1E; /* Dark green background for Welcome section */
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    height: 1200px;
+}
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
+.how-it-works {
+    padding: 70px;
+}
+h3{
+    padding-top: 30px !important;
+}
+h1{
+    font-size: 80px !important;
+}
+@media (min-width: 1024px) {
+      .custom-bg {
+    background-color: #0D2D1E; /* Dark green background for Welcome section */
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    height: 1200px;
+}
+.btn-light{
+    display: block !important;
+    }
+
+h1{
+    font-size: 80px !important;
+}
+}
+@media (max-width: 425px) {
+    .navbar .nav-link {
+font-size: 14px; /* Adjust font size of navbar links */
+}
+.btn-light{
+display: none !important;
+}
+.custom-bg {
+    background-color: #0D2D1E; /* Dark green background for Welcome section */
+    color: white;
+    padding: 50px 20px;
+    position: relative;
+    height: 700px;
+}
+h1{
+font-size: 40px !important;
+}
+.lead{
+font-size: small;
+}
+
+.custom-bg h1 {
+font-size: 30px !important; /* Smaller font size for the header */
+}
+
+.custom-bg p {
+font-size: 10px!important; /* Adjust paragraph font size */
+}
+
+.how-it-works h2 {
+font-size: 18px; /* Smaller heading size in the How It Works section */
+}
+
+.how-it-works p {
+font-size: 12px; /* Adjust paragraph font size */
+}
+
+.hero-image {
+max-height: 200px; /* Adjust the image height for smaller screens */
+}
+
+.btn {
+font-size: 12px; /* Adjust button font size */
+}
+}
